@@ -14,8 +14,8 @@ TODO
 
 - [x] initial
 - [x] fields properties
-- [ ] join db, drop geoData 
-- [ ] data_export 
+- [x] join db, drop geoData 
+- [x] data_export 
 - [ ] neighborhoods
 - [ ] description
 - [ ] map style
