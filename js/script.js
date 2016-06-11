@@ -132,7 +132,7 @@ $('#selectAll').click(function(){
 //radio buttons
 $('input[type=radio][name=area]').change(function() {
   //reset all the things
-  ntaLayer.hide();
+  //ntaLayer.hide();
   selectLayer.clearLayers();
   $('.leaflet-draw-toolbar').hide();
   if (drawnLayer) {
