@@ -200,7 +200,7 @@ $('.download').click(function(){
     data.cartodb = true;
   }
 
-  var queryTemplate = 'https://nyu.cartodb.com/u/pbk236/api/v2/sql?skipfields=cartodb_id,created_at,updated_at,name,description&format={{type}}&filename=pluto&q=SELECT the_geom{{fields}} FROM moscow01 a WHERE ST_INTERSECTS({{{intersects}}}, a.the_geom)';
+  var queryTemplate = 'https://nyu.cartodb.com/pbk236/api/v2/sql?skipfields=cartodb_id,created_at,updated_at,name,description&format={{type}}&filename=mosbld&q=SELECT the_geom{{fields}} FROM moscow01 a WHERE ST_INTERSECTS({{{intersects}}}, a.the_geom)';
 
 
   var buildquery = Handlebars.compile(queryTemplate);
