@@ -8,3 +8,14 @@ About
 =====
 
 TBD
+
+TODO
+====
+
+- [ ] initial
+- [ ] fields properties
+- [ ] data_export 
+- [ ] neighborhoods
+- [ ] description
+- [ ] map style
+- [ ] buttons style
