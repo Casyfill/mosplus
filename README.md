@@ -12,8 +12,9 @@ TBD
 TODO
 ====
 
-- [ ] initial
-- [ ] fields properties
+- [x] initial
+- [x] fields properties
+- [ ] join db, drop geoData 
 - [ ] data_export 
 - [ ] neighborhoods
 - [ ] description

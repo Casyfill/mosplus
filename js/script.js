@@ -69,7 +69,7 @@ map.on('draw:drawstart', function (e) {
 
 //add cartodb named map
 
-var layerUrl = 'https://nyu.cartodb.com/u/pbk236/api/v2/viz/1b5e1f7e-3017-11e6-8a7e-0e674067d321/viz.json';
+var layerUrl = 'https://nyu.cartodb.com/u/pbk236/api/v2/viz/6dd4f23e-3029-11e6-8b8e-0ea31932ec1d/viz.json';
 
 cartodb.createLayer(map, layerUrl)
   .addTo(map)
@@ -200,7 +200,7 @@ $('.download').click(function(){
     data.cartodb = true;
   }
 
-  var queryTemplate = 'https://pbk236.cartodb.com/api/v2/sql?skipfields=cartodb_id,created_at,updated_at,name,description&format={{type}}&filename=mosbld&q=SELECT the_geom{{fields}} FROM moscow01 WHERE ST_INTERSECTS({{{intersects}}}, a.the_geom)';
+  var queryTemplate = 'https://pbk236.cartodb.com/api/v2/sql?skipfields=cartodb_id,created_at,updated_at,name,description&format={{type}}&filename=mosbld&q=SELECT the_geom{{fields}} FROM mosplus01 WHERE ST_INTERSECTS({{{intersects}}}, a.the_geom)';
 
 
   var buildquery = Handlebars.compile(queryTemplate);
