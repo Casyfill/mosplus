@@ -200,7 +200,7 @@ $('.download').click(function(){
     data.cartodb = true;
   }
 
-  var queryTemplate = 'https://cwhong.cartodb.com/api/v2/sql?skipfields=cartodb_id,created_at,updated_at,name,description&format={{type}}&filename=pluto&q=SELECT the_geom{{fields}} FROM pluto15v1 a WHERE ST_INTERSECTS({{{intersects}}}, a.the_geom)';
+  var queryTemplate = 'https://nyu.cartodb.com/u/pbk236/api/v2/sql?skipfields=cartodb_id,created_at,updated_at,name,description&format={{type}}&filename=pluto&q=SELECT the_geom{{fields}} FROM moscow01 a WHERE ST_INTERSECTS({{{intersects}}}, a.the_geom)';
 
 
   var buildquery = Handlebars.compile(queryTemplate);
@@ -242,7 +242,7 @@ function processNeighborhood(e, latlng, pos, data, layer) {
   var nid = data.cartodb_id;
   selectLayer.clearLayers();
 
-  var sql = new cartodb.SQL({ user: 'cwhong' });
+  var sql = new cartodb.SQL({ user: 'pbk236' });  // PHILIPP: need to create table for each
   sql.execute("SELECT the_geom FROM nynta WHERE cartodb_id = {{id}}", 
     { 
       id: data.cartodb_id 
