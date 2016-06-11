@@ -5,8 +5,8 @@ var nPolygon;
 
 //initialize map
 var map = new L.Map('map', { 
-  center: [40.70663644882689,-73.97815704345703],
-  zoom: 14
+  center: [55.746369, 37.623625],
+  zoom: 13
 });
 
 var selectLayer = L.geoJson().addTo(map); //add empty geojson layer for selections
@@ -68,7 +68,8 @@ map.on('draw:drawstart', function (e) {
 });
 
 //add cartodb named map
-var layerUrl = 'https://cwhong.cartodb.com/api/v2/viz/dacf834a-2fa8-11e5-886f-0e4fddd5de28/viz.json';
+
+var layerUrl = 'https://nyu.cartodb.com/u/pbk236/api/v2/viz/1b5e1f7e-3017-11e6-8a7e-0e674067d321/viz.json';
 
 cartodb.createLayer(map, layerUrl)
   .addTo(map)
