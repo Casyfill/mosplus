@@ -17,6 +17,9 @@ TODO
 - [x] join db, drop geoData 
 - [x] data_export 
 - [ ] neighborhoods
+	- [] add neighborhoods to the map
+	- [] create spatial joint and id
+	- [] connect to the frontend
 - [ ] description
 - [ ] map style
 - [ ] buttons style
