@@ -18,7 +18,7 @@
   padding: 13px 26px;
 }
 .HeaderFixed--blue {
-  background:  #28343C
+  background:  #868e94
 }
 a:hover {
   text-decoration: none;
@@ -160,7 +160,7 @@ a:hover {
 }
 
 .HeaderFixed {
-  background-image: linear-gradient(to bottom, #abddd5 0%, #d6e8e5 100%);
+  /*background-image: linear-gradient(to bottom, #abddd5 0%, #d6e8e5 100%);*/
 }
 
 .HeaderFixed strong {
