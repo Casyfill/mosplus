@@ -48,4 +48,6 @@ TODO
 - [x] favicon
 - [x] csv
 - [x] brushing
+- [x] readme
+- [ ] replace script with whget
 - [ ] migrate Database
