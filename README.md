@@ -25,5 +25,6 @@ TODO
 - [x] map center
 - [x] buttons style
 - [ ] favicon
-- [ ] csv
+- [X] csv
 - [ ] brushing
+- [ ] migrate Database
