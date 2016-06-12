@@ -188,8 +188,8 @@ a:hover {
 }
 /* SVG Stuff */
 path {
-  stroke: #8EB83F;
-  fill: #8EB83F;
+  stroke: #7adfec;
+  fill: #71c2ff;
   stroke-opacity: 1;
-  fill-opacity: 0.3;
+  fill-opacity: 0.4;
 }

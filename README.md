@@ -22,6 +22,7 @@ TODO
 	- [x] connect to the frontend
 - [x] description
 - [ ] favicon
+- [ ] csv
 - [ ] map style
 - [x] map center
 - [ ] buttons style
