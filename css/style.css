@@ -159,9 +159,11 @@ a:hover {
   overflow: scroll;
 }
 
+/*
 .HeaderFixed {
-  /*background-image: linear-gradient(to bottom, #abddd5 0%, #d6e8e5 100%);*/
+  background-image: linear-gradient(to bottom, #abddd5 0%, #d6e8e5 100%);
 }
+*/
 
 .HeaderFixed strong {
   font-size:28px;
