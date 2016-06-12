@@ -240,6 +240,7 @@ $('.download').click(function(){
 function processNeighborhood(e, latlng, pos, data, layer) {
 
   var nid = data.cartodb_id;
+  console.log(nid);
   selectLayer.clearLayers();
 
   var sql = new cartodb.SQL({ user: 'pbk236' });  
