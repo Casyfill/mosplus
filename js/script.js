@@ -5,7 +5,7 @@ var nPolygon;
 
 //initialize map
 var map = new L.Map('map', { 
-  center: [55.755153, 37.619288],
+  center: [55.755153, 37.618288],
   zoom: 13
 });
 
