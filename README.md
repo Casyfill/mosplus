@@ -21,8 +21,9 @@ TODO
 	- [x] create spatial joint and id
 	- [x] connect to the frontend
 - [x] description
+- [x] map style
+- [x] map center
+- [x] buttons style
 - [ ] favicon
 - [ ] csv
-- [ ] map style
-- [x] map center
-- [ ] buttons style
+- [ ] brushing
