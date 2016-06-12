@@ -16,10 +16,10 @@ TODO
 - [x] fields properties
 - [x] join db, drop geoData 
 - [x] data_export 
-- [ ] neighborhoods
-	- [] add neighborhoods to the map
-	- [] create spatial joint and id
-	- [] connect to the frontend
+- [x] neighborhoods
+	- [x] add neighborhoods to the map
+	- [x] create spatial joint and id
+	- [x] connect to the frontend
 - [ ] description
 - [ ] map style
 - [ ] buttons style
