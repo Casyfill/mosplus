@@ -243,7 +243,7 @@ function processNeighborhood(e, latlng, pos, data, layer) {
   selectLayer.clearLayers();
 
   var sql = new cartodb.SQL({ user: 'pbk236' });  // PHILIPP: need to create table for each
-  sql.execute("SELECT the_geom FROM nynta WHERE cartodb_id = {{id}}", 
+  sql.execute("SELECT the_geom FROM mo WHERE cartodb_id = {{id}}", 
     { 
       id: data.cartodb_id 
     },
