@@ -20,6 +20,7 @@ TODO
 	- [x] add neighborhoods to the map
 	- [x] create spatial joint and id
 	- [x] connect to the frontend
-- [ ] description
+- [x] description
 - [ ] map style
+- [ ] map center
 - [ ] buttons style
