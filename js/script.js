@@ -242,7 +242,7 @@ function processNeighborhood(e, latlng, pos, data, layer) {
   var nid = data.cartodb_id;
   selectLayer.clearLayers();
 
-  var sql = new cartodb.SQL({ user: 'pbk236' });  // PHILIPP: need to create table for each
+  var sql = new cartodb.SQL({ user: 'pbk236' });  
   sql.execute("SELECT the_geom FROM mo WHERE cartodb_id = {{id}}", 
     { 
       id: data.cartodb_id 
@@ -255,7 +255,7 @@ function processNeighborhood(e, latlng, pos, data, layer) {
     console.log(data);
     selectLayer.addData(data);
     //setup SQL statement for intersection
-    nPolygon = '(SELECT the_geom FROM nynta WHERE cartodb_id = ' + nid + ')';
+    nPolygon = '(SELECT the_geom FROM mo WHERE cartodb_id = ' + nid + ')';
   })
 }
 
