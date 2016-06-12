@@ -24,7 +24,7 @@ a:hover {
   text-decoration: none;
 }
 .button--white a {
-  color: #c3c9b2;
+  color: #373931;
   background: #fff;
 }
 .desactive {
@@ -54,7 +54,7 @@ a:hover {
 .glyphicon-check:after {
   content: '\2713';
   position: absolute;
-  color: #c3c9b2;
+  color: #373931;
   text-align: center;
   line-height: 18px;
   font-size: 14px;
