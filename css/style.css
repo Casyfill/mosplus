@@ -186,10 +186,10 @@ a:hover {
 .leaflet-container {
   background: #293135;
 }
-/* SVG Stuff */
+/* SVG clickable Stuff */
 path {
-  stroke: #7adfec;
-  fill: #71c2ff;
+  stroke: #abddd5;
+  fill: #d6e8e5;
   stroke-opacity: 1;
   fill-opacity: 0.4;
 }
