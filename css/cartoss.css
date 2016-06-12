@@ -1,0 +1,21 @@
+/* MO CARTOSS */
+
+#mo{
+  polygon-fill: #FF6600;
+  polygon-opacity: 0;
+  line-color: #abddd5;
+  line-width: 2;
+  line-opacity: 1;
+}
+
+
+
+/** BLD_Footprint */
+
+#mosplus01{
+  polygon-fill: #e2dddd;
+  polygon-opacity: 0.7;
+  line-color: #FFF;
+  line-width: 0;
+  line-opacity: 1;
+}
