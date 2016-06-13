@@ -18,6 +18,8 @@ All data is version from *25.03.2016* and can be exported as *geoJSON*, *zipped 
 
 If you like this project, let me know by tweeting to @casy_fill. You can easily fork the original code (thanks to Chris, again). This project was built with the CartoDB web mapping platform. [Here]((http://chriswhong.com/open-data/building-a-custom-downloader-for-nycs-pluto-data/))Chris describes his original pipeline. I will try to add my experience as well. Support open Data!
 
+NOTE: data provided as is. There are and there will be few incorrect entries. 
+There are ~ 7700 entries with the wrong geometry provided. for now, they are cleared out and saved as *processing_data/problematic.csv*.
 
 Getting the data
 ================
