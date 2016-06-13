@@ -6,7 +6,7 @@ var nPolygon;
 //initialize map
 var map = new L.Map('map', { 
   center: [55.755153, 37.618288],
-  zoom: 12
+  zoom: 11
 });
 
 var selectLayer = L.geoJson().addTo(map); //add empty geojson layer for selections
